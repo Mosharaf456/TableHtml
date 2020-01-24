@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>This is my first table creating</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css1/style.css"> -->
+<style>
+	    *{
+	    	margin: 0;
+	    	padding: 0;
+	    }
+		table{
+			width: 60%;
+			margin:0 auto;
+		}
+		table,th,td{
+			border: 1px solid #000;
+			border-collapse: collapse;
+			padding: 8px;
+		}
+		td{
+			text-align: center;
+		}
+		th{
+		     background-color: #DDD;
+		}
+		xmp{
+			margin: 0!important;
+		}
+		section{
+			margin: 10px 0;
+			width: 100%;
+			display: block;
+		}
+		.box-0{
+			width:100%;
+			background-color:  #DDD;
+			border: 1px solid #99003c4f;
+			text-align: center;
+		}
+		.box-1{
+			    width: 30%;
+			    background-color: #abc;
+			    text-align: center;
+			    float: left;
+			    padding: 10px;
+			    min-height: 105px;
+			    border: 1px solid #99003c4f;
+			    margin-right: 10px;
+			    margin-bottom: 30px;
+			}
+		.box-2{
+			    width: calc(39% - 54px);
+			    background-color: #ddfff2;
+			    text-align: center;
+			    float: left;
+			    padding: 10px;
+			    border: 1px solid #99003c4f;
+			    min-height: 72px;
+		}
+		.box-3{
+            width: 28%;
+		    background-color: #ddfff2;
+		    text-align: center;
+		    float: right;
+		    padding: 10px;
+		    border: 1px solid #99003c4f;
+		    min-height: 108px;
+		}
+		p{  
+			width: 100%;
+			text-align: center;
+			background-color: #81990085;
+			text-align: center;
+			clear: both;
+		    border: 1px solid #99003c4f;
+		   
+		}
+		
+	</style>
+</head>
+<body>
+	<section>
+		<table>
+			<thead>
+				<tr>
+					<th>Se</th>
+					<th>Tag name</th>
+					<th>Tag description</th>
+					<th>Example</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>a</td>
+					<td>Link tag</td>
+					<td><xmp><a href="">Menu</a></xmp></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>b</td>
+					<td>Bold tag</td>
+					<td><xmp><b>This is a bold tag</b></xmp></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>!DOCTYPE html</td>
+					<td>Declaration html code</td>
+					<td><xmp><!DOCTYPE html></xmp></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>abbr</td>
+					<td>The global title attribute is used with the <abbr> tag to show the description of the abbreviation/acronym when you mouse over the <abbr> element.</td>
+					<td><xmp> <abbr title="World Health Organization">WHO</abbr></xmp></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>acronym</td>
+					<td>The title attribute can be used to show the full version of the acronym when you mouse over it.</td>
+					<td><xmp><acronym> tag is not supported in HTML5. Use the <abbr> </xmp></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>var</td>
+					<td>This tag is not deprecated, but it is possible to achieve richer effect with CSS.</td>
+					<td><xmp><var>Variable</var></xmp></td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>strong</td>
+					<td>Important text with permission to change anything</td>
+					<td><xmp><strong>Strong text</strong></xmp></td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>em</td>
+					<td>The <em> tag is a phrase tag. It renders as emphasized text.</td>
+					<td><xmp><em>Emphasized text</em></xmp></td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>code</td>
+					<td>The <code> tag is a phrase tag. It defines a piece of computer code.</td>
+					<td><xmp><code>A piece of computer code</code></xmp></td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td></td>
+					<td></td>
+					<td><xmp></xmp></td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>samp</td>
+					<td>The <samp> tag is a phrase tag. It defines sample output from a computer program.</td>
+					<td><xmp><samp>Sample output from a computer program</samp></xmp></td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>kbd</td>
+					<td>The <kbd> tag is a phrase tag. It defines keyboard input.</td>
+					<td><xmp><kbd>Keyboard input</kbd></xmp></td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>link</td>
+					<td>The link tag defines a link between a document and an external resource.
+                     The tag is used to link to external style sheets.</td>
+					<td><xmp> <link rel="stylesheet" type="text/css" href="theme.css"></xmp></td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>meta</td>
+					<td>Metadata is data (information) about data.</td>
+					<td><xmp> <meta charset="UTF-8"></xmp></td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>meter</td>
+					<td>The meter tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.</td>
+					<td><xmp><meter value="0.6">60%</meter></xmp></td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>nav</td>
+					<td>The <nav> tag defines a set of navigation links.</td>
+					<td><xmp><nav>
+					  <a href="/html/">HTML</a> |
+					  <a href="/css/">CSS</a> |
+                     </nav></xmp></td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>noscript</td>
+					<td>The noscript tag defines an alternate content for users that have disabled scripts in their browser or have a browser that doesn't support script.</td>
+					<td><xmp><noscript>Your browser does not support JavaScript!</noscript></xmp></td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>object</td>
+					<td>The object tag defines an embedded object within an HTML document. Use this element to embed multimedia (like audio, video, Java applets, ActiveX, PDF, and Flash) in your web pages.</td>
+					<td><xmp><object width="400" height="400" data="helloworld.swf"></object></xmp></td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>ol</td>
+					<td>The ol tag defines an ordered list. An ordered list can be numerical or alphabetical.</td>
+					<td><xmp><ol>
+				  <li>Coffee</li>
+				</ol></xmp></td>
+				</tr>
+					<tr>
+					<td>20</td>
+					<td>li</td>
+					<td>list tag</td>
+					<td><xmp> <li>Coffee</li></xmp></td>
+				</tr>
+				<tr>
+					<td>21</td>
+					<td>p</td>
+					<td>This is some text in a paragraph</td>
+					<td><xmp><p>This is some text in a paragraph.</p></xmp></td>
+				</tr>
+					<tr>
+					<td>22</td>
+					<td>param </td>
+					<td>The param tag is used to define parameters for plugins embedded with an <object> element.</td>
+					<td><xmp> <param name="autoplay" value="true"></xmp></td>
+				</tr>
+					<tr>
+					<td>23</td>
+					<td>picture</td>
+					<td>The picture tag gives web developers more flexibility in specifying image resources.</td>
+					<td><xmp><picture>
+					  <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+					  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+					</picture></xmp></td>
+				</tr>
+					<tr>
+					<td>24</td>
+					<td>progress</td>
+					<td>The progress tag represents the progress of a task.</td>
+					<td><xmp><progress value="22" max="100"></progress></xmp></td>
+				</tr>
+					<tr>
+					<td>25</td>
+					<td>q</td>
+					<td>Browsers normally insert quotation marks around the quotation.</td>
+					<td><xmp><q>Build a future where people live in harmony with nature.</q></xmp></td>
+				</tr>
+					<tr>
+					<td>26</td>
+					<td>caption</td>
+					<td>Table caption</td>
+					<td><xmp><caption>Monthly savings</caption></xmp></td>
+				</tr>
+					<tr>
+					<td>27</td>
+					<td>center</td>
+					<td>Center-align text in an HTML page</td>
+					<td><xmp><center>This text will be center-aligned.</center></xmp></td>
+				</tr>
+					<tr>
+					<td>28</td>
+					<td>cite</td>
+					<td>Define the title of a work </td>
+					<td><xmp><cite>The Scream</cite></xmp></td>
+				</tr>
+					<tr>
+					<td>29</td>
+					<td>s</td>
+					<td>The s tag specifies text that is no longer correct, accurate or relevant.</td>
+					<td><xmp><s>My car is blue.</s></xmp></td>
+				</tr>
+					<tr>
+					<td>30</td>
+					<td>samp</td>
+					<td>Sample output from a computer program</td>
+					<td><xmp><samp>Sample output from a computer program</samp></xmp></td>
+				</tr>
+					<tr>
+					<td>31</td>
+					<td>small</td>
+					<td> Defines smaller text</td>
+					<td><xmp><small>Copyright 1999-2050 by Refsnes Data</small></xmp></td>
+				</tr>
+					<tr>
+					<td>32</td>
+					<td>span</td>
+					<td>Tag is used to group inline-elements in a document.</td>
+					<td><xmp><span style="color:blue">blue</span></xmp></td>
+				</tr>
+					<tr>
+					<td>33</td>
+					<td>strike</td>
+					<td> Tag defines strikethrough text.</td>
+					<td><xmp><strike>not yet available!</strike> </xmp></td>
+				</tr>
+					<tr>
+					<td>34</td>
+					<td>style</td>
+					<td>tag is used to define style information for an HTML document.</td>
+					<td><xmp><style type="q"></style></xmp></td>
+				</tr>
+					<tr>
+					<td>35</td>
+					<td>sub</td>
+					<td>Subscript text appears </td>
+					<td><xmp><sub>This text contains</sub></xmp></td>
+				</tr>
+					<tr>
+					<td>36</td>
+					<td>summary</td>
+					<td>tag defines a visible heading</td>
+					<td><xmp><summary>Copyright 1999-2014.</summary></xmp></td>
+				</tr>
+					<tr>
+					<td>37</td>
+					<td>sup</td>
+					<td>superscript</td>
+					<td><xmp><sup>superscript</sup> </xmp></td>
+				</tr>
+					<tr>
+					<td>38</td>
+					<td></td>
+					<td></td>
+					<td><xmp></xmp></td>
+				</tr>
+					<tr>
+					<td>39</td>
+					<td>table</td>
+					<td>to create table</td>
+					<td><xmp><table>Table tag</table></xmp></td>
+				</tr>
+					<tr>
+					<td>40</td>
+					<td>tbody</td>
+					<td>Table body tag</td>
+					<td><xmp><tbody>Table body tag</tbody></xmp></td>
+				</tr>
+					<tr>
+					<td>41</td>
+					<td>td</td>
+					<td>Table data tag</td>
+					<td><xmp><td>Table data</td></xmp></td>
+				</tr>
+					<tr>
+					<td>42</td>
+					<td></td>
+					<td></td>
+					<td><xmp></xmp></td>
+				</tr>
+					<tr>
+					<td>43</td>
+					<td>tr</td>
+					<td>Table row tag</td>
+					<td><xmp><tr>Table row</tr></xmp></td>
+				</tr>
+					<tr>
+					<td>44</td>
+					<td>button</td>
+					<td>Button</td>
+				    <td><xmp><button type="button">Click Me!</button></xmp></td>
+				</tr>
+					<tr>
+					<td>45</td>
+					<td>canvas</td>
+					<td>Draw a red square, on the fly, and show it inside the canvas element</td>
+					<td><xmp><canvas id="myCanvas"></canvas></xmp></td>
+				</tr>
+					<tr>
+					<td>46</td>
+					<td>th</td>
+					<td>Table head</td>
+					<td><xmp><th>table head</th></xmp></td>
+				</tr>
+					<tr>
+					<td>47</td>
+					<td>template </td>
+					<td>The template element holds HTML code without displaying it:</td>
+					<td><xmp><template>Hiding </template></xmp></td>
+				</tr>
+					<tr>
+					<td>48</td>
+					<td></td>
+					<td></td>
+					<td><xmp></xmp></td>
+				</tr>
+					<tr>
+					<td>49</td>
+					<td>textarea</td>
+					<td>An HTML text area:</td>
+					<td><xmp><textarea>An HTML text area:</textarea></xmp></td>
+				</tr>
+				<tr>
+					<td>50</td>
+					<td>tfoot</td>
+					<td>Used to group footer content in an HTML table</td>
+					<td><xmp><tfoot>Used to group footer content in an HTML table</tfoot></xmp></td>
+				</tr>
+				<tr>
+					<td>51</td>
+					<td>track</td>
+					<td>pecifies text tracks for media elements </td>
+					<td><xmp><track kind="" src=""></xmp></td>
+				</tr>
+					<tr>
+					<td>52</td>
+					<td>u</td>
+					<td>Underline a misspelled word</td>
+					<td><xmp>a <u>parragraph</u></xmp></td>
+				</tr>
+					<tr>
+					<td>53</td>
+					<td>wbr</td>
+					<td>specifies where in a text it would be ok to add a line-break.</td>
+					<td><xmp><wbr>Http<wbr></xmp></td>
+				</tr>
+					<tr>
+					<td>54</td>
+					<td>address</td>
+					<td>Content information</td>
+					<td><xmp><address>Content information</address></xmp></td>
+				</tr>
+					<tr>
+					<td>55</td>
+					<td>applet</td>
+					<td>tag defines an embedded applet.</td>
+					<td><xmp><applet></applet></xmp></td>
+				</tr>
+					<tr>
+					<td>56</td>
+					<td>article</td>
+					<td>specifies independent, self-contained content.</td>
+					<td><xmp><article>specifies independent, self-contained content.</article></xmp></td>
+				</tr>
+					<tr>
+					<td>57</td>
+					<td>aside</td>
+					<td>The aside content should be related to the surrounding content.</td>
+					<td><xmp><aside>abc</aside></xmp></td>
+				</tr>
+					<tr>
+					<td>58</td>
+					<td>audio</td>
+					<td>defines sound, such as music or other audio streams.</td>
+					<td><xmp><audio>defines sound, such as music or other audio streams.</audio></xmp></td>
+				</tr>
+					<tr>
+					<td>59</td>
+					<td>base</td>
+					<td>Specify a default URL and a default target for all links on a page</td>
+					<td><xmp><base href=""></xmp></td>
+				<tr>
+					<td>60</td>
+					<td>basefont</td>
+					<td>Default text color</td>
+					<td><xmp><basefont>Default text color</basefont></xmp></td>
+				</tr>
+					<tr>
+					<td>61</td>
+					<td>bdo</td>
+					<td>Specify the text direction</td>
+					<td><xmp><bdo>Text direction</bdo></xmp></td>
+				</tr>
+				<tr>
+					<td>62</td>
+					<td>big</td>
+					<td>Make text bigger than normal</td>
+					<td><xmp><big>Bigger text</big></xmp></td>
+				</tr>
+					<tr>
+					<td>63</td>
+					<td>blockquote</td>
+					<td>A section that is quoted from another source</td>
+					<td><xmp><blockquote>lsaagdag</blockquote></xmp></td>
+				</tr>
+					<tr>
+					<td>64</td>
+					<td>body</td>
+					<td>A simple HTML document</td>
+					<td><xmp><body>
+					The content of the document......
+					</body></xmp></td>
+				</tr>
+					<tr>
+					<td>65</td>
+					<td>br</td>
+					<td>This text contains br a line break.</td>
+					<td><xmp>This text contains<br>a line break.</xmp></td>
+				</tr>
+					<tr>
+					<td>66</td>
+					<td>code</td>
+					<td>A piece of computer code<</td>
+					<td><xmp><code>A piece of computer code</code></xmp></td>
+				</tr>
+				<tr>
+					<td>67</td>
+					<td>col</td>
+					<td>Set the background color of the three columns</td>
+					<td><xmp><col>Set the background color of the three columns</xmp></td>
+				</tr>
+		      	<tr>     
+					<td>68</td>
+					<td>colgroup</td>
+					<td>Set the background color of the three columns</td>
+					<td><xmp><colgroup>Set the background color of the three columns</colgroup></xmp></td>
+				</tr>
+				<tr>     
+					<td>69</td>
+					<td>data</td>
+					<td> given content with a machine-readable translation</td>
+					<td><xmp><data value="21054">Beef Tomato</data></xmp></td>
+				</tr>
+				<tr>     
+					<td>70</td>
+					<td>datalist</td>
+					<td> specifies a list of pre-defined options</td>
+					<td><xmp><datalist> specifies a list of pre-defined options</datalist></xmp></td>
+				</tr>
+				<tr>     
+					<td>71</td>
+					<td>dd</td>
+					<td>A description list,</td>
+					<td><xmp><dd>A description list,</dd></xmp></td>
+				</tr>
+				<tr>     
+					<td>72</td>
+					<td>del</td>
+					<td>A text with a deleted part</td>
+					<td><xmp><del>blue</del></xmp></td>
+				</tr>
+				<tr>     
+					<td>73</td>
+					<td>details</td>
+					<td>pecifies additional details that the user can view or hide on demand.</td>
+					<td><xmp><details>pecifies additional details that the user can view or hide on demand.</details></xmp></td>
+				</tr>
+				<tr>     
+					<td>74</td>
+					<td>dfn</td>
+					<td>represents the defining instance of a term in HTML.</td>
+					<td><xmp><dfn>HTML</dfn> </xmp></td>
+				</tr>
+				<tr>     
+					<td>75</td>
+					<td>dialog</td>
+					<td>defines a dialog box or window</td>
+					<td><xmp><dialog open>This is an open dialog window</dialog></xmp></td>
+				</tr>
+				<tr>     
+					<td>76</td>
+					<td>dir</td>
+					<td>A directory list</td>
+					<td><xmp><dir>A directory list</dir></xmp></td>
+				</tr>
+				<tr>     
+					<td>77</td>
+					<td>div</td>
+					<td>defines a division or a section in an HTML document</td>
+					<td><xmp><div>lajhky</div></xmp></td>
+				</tr>
+				<tr>     
+					<td>78</td>
+					<td>dt</td>
+					<td>defines a term/name in a description list.</td>
+					<td><xmp><dt>defines a term/name in a description list.</dt></xmp></td>
+				</tr>
+				<tr>     
+					<td>79</td>
+					<td>dt</td>
+					<td>defines a description list</td>
+					<td><xmp><dl>defines a description list</dl></xmp></td>
+				</tr>
+				<tr>     
+					<td>80</td>
+					<td>embed</td>
+					<td>a container for an external application or interactive content</td>
+					<td><xmp><embed src="helloworld.swf"></xmp></td>
+				</tr>
+				<tr>     
+					<td>81</td>
+					<td>fieldset</td>
+					<td>Group related elements in a form</td>
+					<td><xmp><fieldset>Group related elements in a form.</fieldset></xmp></td>
+				</tr>
+				<tr>     
+					<td>82</td>
+					<td>figure</td>
+					<td>Use a figure element to mark up a photo in a document.</td>
+					<td><xmp><figcaption>Use a figure element to mark up a photo in a document.</figcaption></xmp></td>
+				</tr>
+				<tr>     
+					<td>83</td>
+					<td>figure</td>
+					<td>specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</td>
+					<td><xmp><figure>shdig</figure></xmp></td>
+				</tr>
+				<tr>     
+					<td>84</td>
+					<td>font</td>
+					<td>Specify the font size, font face and color of text</td>
+					<td><xmp><font size="3" color="red">This is some text!</font></xmp></td>
+				</tr>
+				<tr>     
+					<td>85</td>
+					<td>footer</td>
+					<td>A footer section in a document</td>
+					<td><xmp><footer>A footer section in a document</footer></xmp></td>
+				</tr>
+				<tr>     
+					<td>86</td>
+					<td>form</td>
+					<td>used to create an HTML form for user input.</td>
+					<td><xmp><form>used to create an HTML form for user input.</form></xmp></td>
+				</tr>
+				<tr>     
+					<td>87</td>
+					<td>frameset</td>
+					<td>defines one particular window (frame) within a frameset</td>
+					<td><xmp><frameset>frameset</frameset></xmp></td>
+				</tr>
+				<tr>     
+					<td>88</td>
+					<td>frameset</td>
+					<td>tag defines a frameset.</td>
+					<td><xmp><frameset>tag defines a frameset.</frameset></xmp></td>
+				</tr>
+				<tr>     
+					<td>89</td>
+					<td>h1</td>
+					<td> tags are used to define HTML headings</td>
+					<td><xmp><h1>This is heading 1</h1></xmp></td>
+				</tr>
+				<tr>     
+					<td>90</td>
+					<td>head</td>
+					<td>element is a container for all the head elements.</td>
+					<td><xmp><head>element is a container for all the head elements.</head></xmp></td>
+				</tr>
+				<tr>     
+					<td>91</td>
+					<td>i</td>
+					<td> tag can be used to indicate a technical term</td>
+					<td><xmp> <i>The lightning</i></xmp></td>
+				</tr>
+				<tr>     
+					<td>92</td>
+					<td>iframe</td>
+					<td>specifies an inline frame.</td>
+					<td><xmp><iframe src="https://www.w3schools.com"></iframe></xmp></td>
+				</tr>
+				<tr>     
+					<td>93</td>
+					<td>ins</td>
+					<td>defines a text that has been inserted into a document.</td>
+					<td><xmp><ins>red</ins></xmp></td>
+				</tr>
+				<tr>     
+					<td>94</td>
+					<td>kbd</td>
+					<td>Keyboard input</td>
+					<td><xmp><kbd>Keyboard input</kbd></xmp></td>
+				</tr>
+				<tr>     
+					<td>95</td>
+					<td></td>
+					<td>defines a label button, input, meter, output, progress, select, or textarea element.</td>
+					<td><xmp> <label for="male">Male</label></xmp></td>
+				</tr>
+				<tr>     
+					<td>96</td>
+					<td>legend</td>
+					<td>efines a caption for the fieldset element</td>
+					<td><xmp><legend>Personalia:</legend></xmp></td>
+				</tr>
+				<tr>     
+					<td>97</td>
+					<td>mark</td>
+					<td> defines marked text.</td>
+					<td><xmp><mark>milk</mark></xmp></td>
+				</tr>
+				<tr>     
+					<td>98</td>
+					<td>param</td>
+					<td> to define parameters for plugins embedded with an object element.</td>
+					<td><xmp> <param name="autoplay" value="true"></xmp></td>
+				</tr>
+				<tr>     
+					<td>99</td>
+					<td>section</td>
+					<td> defines sections in a document, such as chapters, headers, footers, or any other sections of the document.</td>
+					<td><xmp><section> defines sections in a document, such as chapters</section></xmp></td>
+				</tr>
+				<tr>     
+					<td>100</td>
+					<td>select</td>
+					<td>Create a drop-down list with four options</td>
+					<td><xmp><select>Create a drop-down list with four options</select></xmp></td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section>
+		<div class="box-0">
+			Box-0
+		</div>
+	</section>
+	<section>
+		<div class="box-1">
+		OneBox OneBox 
+	    </div>
+		<div class="box-2">
+			Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2
+			Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2
+			Box-2 Box-2 box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2 Box-2
+		</div>
+		<div class="box-3">
+		ThreeBox threeBox 
+	    </div>
+	</section>
+	
+		<footer>
+			<p>This is a web page...</p>
+		</footer>
+	
+</body> 
+</html> 
